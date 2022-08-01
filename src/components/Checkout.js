@@ -21,6 +21,7 @@ const Checkout = () => {
 
             <div>
                 <h2 className="checkout_title">
+                    
                     Your Shopping Basket
 
                     {/* Checkout Products */}
