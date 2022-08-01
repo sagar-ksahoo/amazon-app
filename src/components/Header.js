@@ -30,11 +30,13 @@ const Header = () => {
         </div>
 
         <div className="header_nav">
-          
+
+        <Link to='/login'> 
           <div className="header_option">
             <span className="header_line1">Hello User</span>
             <span className="header_line2">Sign In</span>
           </div>
+        </Link>
 
           <div className="header_option">
             <span className="header_line1">Returns</span>
