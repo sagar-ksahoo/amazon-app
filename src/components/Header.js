@@ -39,7 +39,7 @@ const Header = () => {
 
         <Link to={!user && '/login'}> 
           <div onClick={handleAuthentication} className="header_option">
-            <span className="header_line1">Hello User</span>
+            <span className="header_line1">Hello {!user ? 'Guest' : user.email}</span>
             <span className="header_line2">{user ? 'Sign Out' : 'Sign In'}</span>
           </div>
         </Link>
